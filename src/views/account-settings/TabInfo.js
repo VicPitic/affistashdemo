@@ -66,7 +66,7 @@ const TabInfo = () => {
             inputProps={{ readOnly: true }}
             label='Target Gender'
             placeholder='https://example.com/'
-            defaultValue='Male'
+            defaultValue='Any'
           />
         </Grid>
         <Grid item xs={12} sm={12}>
@@ -91,9 +91,9 @@ const TabInfo = () => {
               input={<OutlinedInput label='Languages' id='select-multiple-language' />}
             >
               <MenuItem value='English'>Blogs</MenuItem>
-              <MenuItem value='French'>TikTok</MenuItem>
-              <MenuItem value='Spanish'>PPC Ads</MenuItem>
-              <MenuItem value='Portuguese'>Youtube Influencers</MenuItem>
+              <MenuItem value='French'>Content Marketing</MenuItem>
+              <MenuItem value='Portuguese'>Social Networks (Twitter, LinkedIn)</MenuItem>
+              <MenuItem value='Portuguese'>Cold Outreach</MenuItem>
             </Select>
           </FormControl>
         </Grid>
